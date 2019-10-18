@@ -1,0 +1,24 @@
+#Diferencias entre javascript y node.js
+
+En javascript-------
+
+En javascript tenemos el DOM. La interfaz web.
+En javascript tambien tenemos el CSSOM (manipulamos css en JS)
+Tambien el fetch API (hacemos request y nos devuelve una promesa )
+Toda la capa del web storage
+Tambien el canvas API (permite hacer graficos en la web  en 2 o 3d)
+Las APIs en general del navegador 
+
+En Node.js ----------
+
+Node tiene el modulo de HTTP para crear servidores
+El modulo del sistema operativo para comunicarse con el SO
+El modulo utiliddes
+El modulo debugger
+
+En común ----------------
+
+Librerias comunes streams
+Eventos
+Ecmascript modules -Se pueden ejecutar del lado del cliente por medio de un jsflag
+Consola

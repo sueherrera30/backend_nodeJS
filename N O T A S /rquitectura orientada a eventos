@@ -1,0 +1,33 @@
+arquitectura con mayores paradicmas en nodejs.
+
+eventos nos permiten manipular el codigo sincrono de un mejor manera.
+
+creamos
+CALLBACK.JS
+dentro funcion que pasa como parametro un callback, 
+uncallback ES UN PARAMETRO QUE SE VA A EJECUTAR COMO FUNCION MAS ADELANTE.
+usamos set time para hacerlo asincrono.
+usamos 
+cb()
+
+en nodejs, es comun ERROR FISRT CALLBACK, donde mandamos primero el error 
+si no hay, envio un NULL y los PARAMETROS consecuentes.
+
+antes de ejecutar codigo se va FORMATEAR con esto usamos comado
+FORMAT DOCUMENT  usamos shift commmand f 
+
+ejecutamos en CONSOLA: 
+
+node + file name Ñ 
+node callback.js 
+
+promesa:
+
+usamos parabra reservada new y recibe como parametro resolve y reject.
+las promsas se pueden ecadenar
+la manera de ejercutar una promesa es través de then.
+
+con call back y promesas es dificil leer por como s va 
+formando en cascadas entonces, 
+recientemente salieron las async await - manera de escribir codigo
+asincrono que se vea asincrono.

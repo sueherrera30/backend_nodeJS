@@ -1,0 +1,58 @@
+Node.js es un entorno de ejecución para JavaScript construido 
+con el motor JavaScript V8 de Chrome. JavaScript es un lenguaje interpretado 
+pero en Node.js tenemos algo llamado el JIT Compiler que es una especie
+ de monitor que optimiza fragmentos de código que son ejecutados frecuentemente.
+
+ 
+ ¿Qué es node.js ?
+Node.js es un entorno de ejecucion para javascript
+
+¿Qué es un entorno de ejecución?
+Runtime environment
+Un entorno de ejecucion es una capa encima del sistema 
+operativo que ejecuta una pieza de software.
+
+esta capa es al responsable de decir como consume la memoria, 
+como accede a las variables ,como debe pasar los parametros entre 
+los diferentes procedimientos y sabe como y cuando ejecutar el garbage collector.
+
+crhome v8 _
+motor open source 
+gracias a just in time, COMPLA js
+originalmente js se considero interpretado no compilado 
+
+NODEJS es el resultado de tomar el motor de js chrome v8  
+para crear un entorno de ejecución y asi tener JS DE LADO DEL SERVIDOR.
+
+
+¿Qué nos permite?
+
+Usar javascript para el servidor.
+-----------------------------------
+
+CRHOMEUM(open source
+CRHOME CANARY (mineros canario y gas en minas)
+Si todo sale bien lo pasan a produccion.
+
+crhome v8 - COMPILA JS a codigo MAQUINA 
+
+lenguajes INTERPRETADOS: 
+se ejecutan muy rapido cada que pasan por una linea 
+de codigo deben volver a interpretar,
+
+lenguajes COMPILADOS, 
+se demoran en cargar por que primero deben pasar por ese proceso, si debe pasar de nuevo
+no demora, por que ya esta compilado.
+
+JS era interpretado pero al usar JUST IN TIME COMPILER, paso a ser compilado.
+es que hace: tiene un monito que se encarga de ver cada cuando se ejecuta nuestro codigo.
+si se ejecuta mucho, pone un estado WARM  y ese codigo Lo compila, si se compila de nuevo 
+va a estado hot y cuando se llame de nuevo este ya esta compilado.
+
+v8 es el engine de JS, existen otros como SPIDER MONKEY de mozilla 
+js core de apple 
+chaka de microsoft - ahora v8 
+
+2009, bryan know, mostro NODEJS 
+
+

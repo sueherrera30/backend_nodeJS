@@ -1,0 +1,19 @@
+USO de utilidades que tiene incorporada node js
+
+utlidades del sistema operativo,con ella podemos 
+botener informacion del mismo
+
+el modulo sera OS.
+
+primer metodo:
+cuando queremos saber cuanta potencia tiene una maquina
+.cpus()
+
+nos dice velocidad, core 
+no. de usuario 
+
+para conocer nuestro IP:
+
+os.networkInterfaces()
+
+

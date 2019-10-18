@@ -1,0 +1,53 @@
+Para comenzar un proyecto en expresss lo mas recomendable instlar package.jon 
+esto lo podemos lograr con el comando:
+
+----  npm init -y ----- (esto significa -y decir si a todo)
+
+desde el inicio es bueno que dejemos todo acomodado, asi que en scripts, vamos a agregar
+dev.
+nodemon, nos ayuda a qeu cada que tenga un cambio en mi servidor este nos actualicesutomaticamente.
+script start nos ayudara a arrancar nuestro proyecto en modo de producción. 
+"scripts": {
+  "dev": "DEBUG=app:* nodemon index",
+  "start":"NODE_ENV=production node index"
+},
+
+
+despues creamos archivo .eslint.json
+para configurar:
+
+1. todo mi codigo va ausar version de js 2018 en adelante
+2. vamos a extedner de eslint recomendado con prettier
+3. variables de mocha para hacer test
+
+hacer warn en lugar de error
+
+prettierrc.json nos ayuda a estandarizar nuestro codigo,se ecarga de que todos el codigo sea igual
+
+despues instalamos dependiencias:
+
+---- npm i express dotenv -----
+----- npm i -D nodemon eslint eslint-config-prettier eslint-plugin-prettier prettier ------
+
+cada que se haga commit verifica y haz que el codigo que sea igual:
+------ npx mrm lint-staged -----
+
+después guardamos variables en config, (con el puerto pa no quemarlo)
+
+después hacemos SERVIDOR en la raiz con INDEX.js
+
+
+E J E C U T A M O S usando nuestro stript de desarrollo
+
+----- npm run dev ------
+
+ojo: relative mode path, nos ayuda autocompletar las RUTAS;)
+
+
+
+
+
+DUDAS:
+ que es npx
+ que es quemar el puerto
+

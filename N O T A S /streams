@@ -1,0 +1,6 @@
+un stream es una COLECCIÓN DE DATOS
+como los arrey , como las cadenas de texto solo que 
+en lugar de manejarlo en su totalidad se va manejando pedazo por pedazo.
+asi podemos manejar gran cantidad de datos.
+
+con stream podemos manipular grandes cantidades de datos

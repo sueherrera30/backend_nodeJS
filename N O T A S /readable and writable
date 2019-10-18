@@ -1,0 +1,25 @@
+tienen enventos y funciones.
+tienen eventos por que vienen del event emmiter.
+
+en el readable ....
+
+  EVENTOS los mas comunes son:
+data  -> donde recibie datos.
+end _> al terminar de reciri estos datos
+error -> al recibir un error 
+
+FUNCIONES mas comunes:
+PIPE() 
+READ 
+BUSH
+
+Writable ....
+eventos:
+drig? -> cuando esta emitiendo datos
+finish -> al terminarlos
+error -> igual lanza error 
+
+funciones mas comunes 
+write 
+end
+
